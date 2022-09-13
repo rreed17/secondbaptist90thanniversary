@@ -9,34 +9,48 @@ body {
     margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background: rgb(0,0,0);
     background: rgb(255,255,255);
     background: linear-gradient(90deg, rgba(255,255,255,1) 30%, rgba(214,210,203,1) 70%, rgba(0,0,0,1) 92%);
     font-size: 1rem;
-    display: flex;
-    justify-content: center;
-    padding: 6em 2em;
+   
   
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5em 2em;
 }
 
 h1
  {
     font-size: 2rem;
     font-weight: 600;
+    padding: 0;
+    margin: 0;
     background-image: linear-gradient(90deg, #000, #F5FFFA);
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
-    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-width: .5px;
     -webkit-text-stroke-color: black;
   }
 
 a
 {
     border: 2px solid #fff;
+    border-radius: .2em;
     background: #000;
     color: #fff;
-    width: 300px;
-    padding: 20px 20px;
+    width: 4rem;
+    padding: 1em 1em;
+    flex: 1;
+    text-decoration: none;
+    outline: none;
+    text-align: center;
+
   }
 
+  
+
+ 
